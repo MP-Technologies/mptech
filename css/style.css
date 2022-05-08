@@ -661,7 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  background: #f6f6f6;
+  background: #101010;
   padding: 80px 0;
 }
 
@@ -717,6 +717,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 4px;
 }
 
+#testimonials .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#testimonials .btn-services:hover {
+  background: #881111;
+  border: 2px solid #881111;
+}
+
+#testimonials .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
 /* Team Section
 --------------------------------*/
 #team {
