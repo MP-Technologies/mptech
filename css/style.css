@@ -552,6 +552,58 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Subscribe Section
 --------------------------------*/
+
+#cursos {
+  background: #000;
+  padding: 80px 0;
+}
+
+#cursos .about-container {
+  background: url(../img/curso.jpg) left top no-repeat;
+}
+
+
+#cursos .about-content {
+  background: #000;
+}
+
+#cursos .about-title {
+  color: #999999;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#cursos .about-text {
+  line-height: 26px;
+}
+
+#cursos .about-text:last-child {
+  margin-bottom: 0;
+}
+
+#cursos .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#cursos .btn-services:hover {
+  background: #881111;
+  border: 2px solid #881111;
+}
+
+#cursos .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
 #subscribe {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/subscribe-bg.jpg) fixed center center;
   background-size: cover;
